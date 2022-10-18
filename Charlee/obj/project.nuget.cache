@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Od0xaupFoXSCndai1p4nfonFDfF/au2PjfvvUlumNX7tRPYqcHSZ767AkTHuQm5x8nJ1w0oMs/M0PstExUt1A==",
+  "dgSpecHash": "rSUPc0r0FW/DSVcSokx2WjqmBJWH2AlwY+5hWfwbButuiCKKYM6v66BJM8aWdLCSMtpvGIndR201rtrpHkrP5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\Charlee.csproj",
+  "projectFilePath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rilar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\Charlee.csproj": {}
+    "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\Charlee.csproj": {
+    "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\Charlee.csproj",
+        "projectUniqueName": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj",
         "projectName": "Charlee",
-        "projectPath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\Charlee.csproj",
+        "projectPath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj",
         "packagesPath": "C:\\Users\\rilar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee\\obj\\",
+        "outputPath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
