@@ -4,7 +4,9 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://charleevault.vault.azure.net/",
+        "AZURE_USERNAME": "BP43AF@student.aau.dk"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7164;http://localhost:5164"
@@ -13,7 +15,9 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://charleevault.vault.azure.net/",
+        "AZURE_USERNAME": "BP43AF@student.aau.dk"
       }
     },
     "Docker": {
@@ -21,7 +25,11 @@
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "publishAllPorts": true,
-      "useSSL": true
+      "useSSL": true,
+      "environmentVariables": {
+        "VaultUri": "https://charleevault.vault.azure.net/",
+        "AZURE_USERNAME": "BP43AF@student.aau.dk"
+      }
     }
   },
   "iisSettings": {
