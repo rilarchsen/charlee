@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Charlee</name>
+    </assembly>
+    <members>
+        <member name="M:Charlee.Controllers.TestApiController.Greet(System.String)">
+            <summary>
+            Returns 200 OK and a greeting including the name provided
+            </summary>
+            <param name="name">Name which to greet</param>
+            <returns>OkObjectResult</returns>
+        </member>
+    </members>
+</doc>
