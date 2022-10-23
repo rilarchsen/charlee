@@ -38,6 +38,21 @@ namespace Charlee.Controllers
             return View(student);
         }
 
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Product model)
+        {
+            _context.Products.Add(model);
+            _context.SaveChanges();
+            ViewBag.Message = "Data Insert Successfully";
+            return View();
+        }
+
         /*public List<Product> GetAllProducts()
         {
 
