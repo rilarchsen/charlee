@@ -1,11 +1,17 @@
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using Azure.Identity;
+using Microsoft.EntityFrameworkCore;
+using Charlee.Contexts;
+using Charlee;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var keyVaultEndpoint = new Uri(Environment.GetEnvironmentVariable("VaultUri"));
 builder.Configuration.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());
+
+builder.Services.AddDbContext<DatabaseContext>(options =>
+  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -50,4 +56,21 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+/*//seed db
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<DatabaseContext>();
+    context.Database.EnsureCreated();
+    DbInitializer.Initialize(context);
+}
+
+Console.WriteLine("Done seeding...");*/
+
+
 app.Run();
+
+
+
+
