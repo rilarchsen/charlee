@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vs93XQ8Wu/O1WvP+1/MsC29EKdUz5/ZGzA8YecZvr7xvGMRAvvAhoHi6Ik0ZzNLhA7MuvvpwiY+hVWu0y3Rf7Q==",
+  "dgSpecHash": "Wmcfx7MRjNCyucVaqVY5E+DiSPiNdW+Huvs2BxzeU5IIFfWLuP3hcr+lobhzFjxloXmEKA8bla1q1Ury69+O/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\rilar\\Documents\\GitHub\\charlee\\Charlee\\Charlee.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rilar\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
-    "C:\\Users\\rilar\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.0.0\\azure.extensions.aspnetcore.configuration.secrets.1.0.0.nupkg.sha512",
-    "C:\\Users\\rilar\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\rilar\\.nuget\\packages\\azure.security.keyvault.secrets\\4.0.1\\azure.security.keyvault.secrets.4.0.1.nupkg.sha512",
+    "C:\\Users\\rilar\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
+    "C:\\Users\\rilar\\.nuget\\packages\\azure.extensions.aspnetcore.configuration.secrets\\1.2.2\\azure.extensions.aspnetcore.configuration.secrets.1.2.2.nupkg.sha512",
+    "C:\\Users\\rilar\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\rilar\\.nuget\\packages\\azure.security.keyvault.secrets\\4.2.0\\azure.security.keyvault.secrets.4.2.0.nupkg.sha512",
     "C:\\Users\\rilar\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\rilar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rilar\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
